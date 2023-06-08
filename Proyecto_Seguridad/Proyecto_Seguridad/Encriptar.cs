@@ -34,7 +34,7 @@ namespace Proyecto_Seguridad
             string cadenaParametro = mensaje;
 
             ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = "C:\\Users\\xjlop\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe";
+            startInfo.FileName = "WPy64-31090/python-3.10.9.amd64/python.exe";
             startInfo.Arguments = $"{pythonScript} {archivoParametro} \"{cadenaParametro}\"";
             startInfo.RedirectStandardOutput = true;
             startInfo.UseShellExecute = false;
